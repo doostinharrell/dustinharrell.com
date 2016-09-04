@@ -1,0 +1,19 @@
+.l-footer {
+	padding: 2rem 0;
+	.copyright {
+		margin-top: 1rem;
+	}
+}
+
+ul.menu--social {
+	margin: auto;
+	list-style: none;
+	text-align: center;
+	li {
+		display: inline-block;
+		margin: 0 .25rem;
+		a:hover {
+			@include transform(translateX(-1rem));
+		}
+	}
+}

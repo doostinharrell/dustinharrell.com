@@ -1,0 +1,29 @@
+.button {
+	@include transition(all .25s ease-in-out);
+	background-color: transparent;
+	border: 2px solid $primary-color;
+	border-bottom: 4px solid $primary-color;
+	color: $primary-color;
+	transform: translateZ(0);
+	backface-visibility: hidden;
+	position: relative;
+	&:before {
+		@include transition(all .25s ease-in-out);
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: $primary-color;
+		transform: scaleX(0);
+		transform-origin: 50%;
+	}
+	&:hover {
+		color: $white;
+		&:before {
+			transform: scaleX(1);
+		}
+	}
+}
