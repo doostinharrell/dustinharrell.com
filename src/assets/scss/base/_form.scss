@@ -1,8 +1,8 @@
 .button {
 	@include transition(all .25s ease-in-out);
 	background-color: transparent;
-	border: 2px solid $primary-color;
-	border-bottom: 4px solid $primary-color;
+	border: 3px solid $primary-color;
+	border-bottom: 5px solid $primary-color;
 	color: $primary-color;
 	transform: translateZ(0);
 	backface-visibility: hidden;

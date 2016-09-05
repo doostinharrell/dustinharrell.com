@@ -1,8 +1,11 @@
 .l-footer {
 	padding: 2rem 0;
-	.copyright {
-		margin-top: 1rem;
-	}
+}
+
+.copyright {
+	color: $white;
+	opacity: .5;
+	margin-top: 1rem;
 }
 
 ul.menu--social {

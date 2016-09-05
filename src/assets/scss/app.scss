@@ -54,7 +54,7 @@
 // Include vendor partials
 ////////////////////////////////////////
 
-$fa-font-path: "../../fonts" !default;
+$fa-font-path: "../../assets/fonts" !default;
 @import 'font-awesome';
 
 ////////////////////////////////////////
@@ -78,3 +78,4 @@ $fa-font-path: "../../fonts" !default;
 
 // Module Styles
 @import "modules/navigation";
+@import "modules/featured-items";

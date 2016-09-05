@@ -6,20 +6,48 @@ a {
 	@include transition();
 }
 
+h1 {
+	text-align: center;
+	margin-bottom: 2rem;
+	@include breakpoint(large) {
+		text-align:  initial;
+		margin-bottom: .5rem;
+	}
+}
+
+h2.large {
+	@include header-size-responsive(h1);
+}
+
 .highlight {
 	color: $green;
 	position: relative;
+	text-align: center;
+	display: block;
+	@include breakpoint(large) {
+		display:  initial;
+	}
 	&:after {
 		position: absolute;
 		width: 5rem;
-		height: 4px;
+		height: 5px;
 		background: $light-gray;
 		content: '';
 		left: 0;
 		right: 0;
-		bottom: -5px;
+		bottom: -7px;
 		margin: auto;
+	}
+}
 
+.highlight--line {
+	@extend .highlight;
+	color: inherit;
+	&:after {
+		background: $green;
+	}
+	@include breakpoint(large) {
+		display:  block;
 	}
 }
 

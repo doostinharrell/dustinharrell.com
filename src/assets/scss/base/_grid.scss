@@ -1,3 +1,6 @@
 .row {
 	padding: 2rem 1rem;
+	&.no-pad {
+		padding: 0;
+	}
 }
