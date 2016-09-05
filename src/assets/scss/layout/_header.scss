@@ -1,14 +1,14 @@
 .l-header {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 	align-content: stretch;
 	align-items: stretch;
 	justify-content: center;
 	position: relative;
 }
 .l-header__content {
-	padding: 2rem;
 	display: flex;
+	padding: 2rem;
 	flex-flow: column wrap;
 	justify-content: center;
 	.logo__wrapper {
@@ -48,6 +48,8 @@
 }
 .l-header__bg {
 	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: -1;
 	height: 75%;
 	width: 100%;

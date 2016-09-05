@@ -10,7 +10,7 @@ h1 {
 	text-align: center;
 	margin-bottom: 2rem;
 	@include breakpoint(large) {
-		text-align:  initial;
+		text-align:  left;
 		margin-bottom: .5rem;
 	}
 }
@@ -25,7 +25,7 @@ h2.large {
 	text-align: center;
 	display: block;
 	@include breakpoint(large) {
-		display:  initial;
+		display:  inline-block;
 	}
 	&:after {
 		position: absolute;
