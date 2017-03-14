@@ -35,8 +35,11 @@ h2.large {
 		content: '';
 		left: 0;
 		right: 0;
-		bottom: -7px;
 		margin: auto;
+		bottom: -7px;
+		@include breakpoint(large) {
+			bottom: 0;
+		}
 	}
 }
 

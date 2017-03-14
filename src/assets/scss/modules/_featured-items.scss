@@ -21,12 +21,22 @@
 	&:nth-child(2) {
 		background: $green;
 	}
+	@include breakpoint(large) {
+		&:nth-child(2), &:nth-child(3) {
+			background: $green;
+		}
+	}
 
 	// hover states
 	&:hover {
 		background: darken($medium-gray, 10%);
 		&:nth-child(2) {
 			background: darken($green, 10%);
+		}
+		@include breakpoint(large) {
+			&:nth-child(2), &:nth-child(3) {
+				background: darken($green, 10%);
+			}
 		}
 		.featured-item__bg {
 			@include scale(1.25);

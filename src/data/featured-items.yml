@@ -1,0 +1,41 @@
+-
+  title:
+    - "University of Maryland Center for Environmental Science"
+  image:
+    - "assets/img/work/umces.jpg"
+  url_link:
+    - "http://www.umces.edu"
+  url_display:
+    - "umces.edu"
+  services:
+    - "Theming"
+  date:
+    - "03/2017"
+
+-
+  title:
+    - "The Universities at Shady Grove"
+  image:
+    - "assets/img/work/universities-at-shady-grove.jpg"
+  url_link:
+    - "http://www.shadygrove.umd.edu"
+  url_display:
+    - "shadygrove.umd.edu"
+  services:
+    - "Theming"
+  date:
+    - "10/2016"
+
+-
+  title:
+    - "Blue Oak Interactive"
+  image:
+    - "assets/img/work/blue-oak-interactive.jpg"
+  url_link:
+    - "https://www.blueoakinteractive.com"
+  url_display:
+    - "blueoakinteractive.com"
+  services:
+    - "Design / Theming"
+  date:
+    - "08/2016"

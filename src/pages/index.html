@@ -3,33 +3,22 @@
     <h2 class="highlight--line large">Recent Work</h2>
   </div>
 </div>
+
 <div class="row no-pad collapse featured-items">
+  {{#each featured-items}}
   <div class="featured-item odd small-12 medium-12 large-6">
-    <a href="https://www.blueoakinteractive.com" target="_blank">
-      <div class="featured-item__bg" style="background-image: url({{root}}assets/img/work/blue-oak-interactive.jpg);"></div>
+    <a href="{{this.url_link}}" target="_blank">
+      <div class="featured-item__bg" style="background-image: url({{root}}{{this.image}});"></div>
       <div class="featured-item__content featured-item__content--default">
-        <div class="featured-item__title">Blue Oak Interactive</div>
-        <div class="featured-item__services">Design / Theming</div>
+        <div class="featured-item__title">{{this.title}}</div>
+        <div class="featured-item__services">{{this.services}}</div>
       </div>
       <div class="featured-item__content featured-item__content--hover">
         <div class="featured-item__title">Visit</div>
-        <div class="featured-item__link">www.blueoakinteractive.com</div>
+        <div class="featured-item__link">{{this.url_display}}</div>
       </div>
-      <div class="featured-item__date">08/2016</div>
+      <div class="featured-item__date">{{this.date}}</div>
     </a>
   </div>
-  <div class="featured-item even small-12 medium-12 large-6">
-    <a href="http://www.shadygrove.umd.edu/" target="_blank">
-      <div class="featured-item__bg" style="background-image: url({{root}}assets/img/work/universities-at-shady-grove.jpg);"></div>
-      <div class="featured-item__content featured-item__content--default">
-        <div class="featured-item__title">The Universities at Shady Grove</div>
-        <div class="featured-item__services">Theming</div>
-      </div>
-      <div class="featured-item__content featured-item__content--hover">
-        <div class="featured-item__title">Visit</div>
-        <div class="featured-item__link">www.shadygrove.umd.edu</div>
-      </div>
-      <div class="featured-item__date">10/2016</div>
-    </a>
-  </div>
+  {{/each}}
 </div>
