@@ -1,5 +1,19 @@
 -
   title:
+    - "Ridgeline Church Info"
+  image:
+    - "assets/img/work/ridgeline-church-asheville.jpg"
+  url_link:
+    - "https://ridgelineasheville.info"
+  url_display:
+    - "ridgelineasheville.info"
+  services:
+    - "Design / Theming"
+  date:
+    - "06/2017"
+
+-
+  title:
     - "Sarai Integrative Health"
   image:
     - "assets/img/work/sarai-integrative-health.jpg"
