@@ -1,69 +1,55 @@
--
-  title:
-    - "Ridgeline Church Info"
-  image:
-    - "assets/img/work/ridgeline-church-asheville.jpg"
-  url_link:
-    - "https://ridgelineasheville.info"
-  url_display:
-    - "ridgelineasheville.info"
-  services:
-    - "Design / Theming"
-  date:
-    - "06/2017"
+bariani:
+  title: "Bariani Olive Oil"
+  image: "assets/img/work/bariani-olive-oil.png"
+  url_link: "https://www.barianioliveoil.com"
+  url_display: "barianioliveoil.com"
+  services: "Drupal 8 / Design / Theming"
+  date: "10/2017"
 
--
-  title:
-    - "Sarai Integrative Health"
-  image:
-    - "assets/img/work/sarai-integrative-health.jpg"
-  url_link:
-    - "https://saraiintegrativehealth.com"
-  url_display:
-    - "saraiintegrativehealth.com"
-  services:
-    - "Design / Theming"
-  date:
-    - "04/2017"
+imet:
+  title: "Institute of Marine and Environmental Technology"
+  image: "assets/img/work/institute-of-marine-and-environmental-technology.png"
+  url_link: "https://imet.usmd.edu"
+  url_display: "imet.usmd.edu"
+  services: "Drupal 8 / Theming"
+  date: "08/2017"
 
--
-  title:
-    - "University of Maryland Center for Environmental Science"
-  image:
-    - "assets/img/work/umces.jpg"
-  url_link:
-    - "http://www.umces.edu"
-  url_display:
-    - "umces.edu"
-  services:
-    - "Theming"
-  date:
-    - "03/2017"
+ridgeline:
+  title: "Ridgeline Church Info"
+  image: "assets/img/work/ridgeline-church-asheville.jpg"
+  url_link: "https://ridgelineasheville.info"
+  url_display: "ridgelineasheville.info"
+  services: "Drupal 7 / Design / Theming"
+  date: "06/2017"
 
--
-  title:
-    - "The Universities at Shady Grove"
-  image:
-    - "assets/img/work/universities-at-shady-grove.jpg"
-  url_link:
-    - "http://www.shadygrove.umd.edu"
-  url_display:
-    - "shadygrove.umd.edu"
-  services:
-    - "Theming"
-  date:
-    - "10/2016"
+sarai:
+  title: "Sarai Integrative Health"
+  image: "assets/img/work/sarai-integrative-health.jpg"
+  url_link: "https://saraiintegrativehealth.com"
+  url_display: "saraiintegrativehealth.com"
+  services: "Design / Theming"
+  date: "04/2017"
 
--
-  title:
-    - "Blue Oak Interactive"
-  image:
-    - "assets/img/work/blue-oak-interactive.jpg"
-  url_link:
-    - "https://www.blueoakinteractive.com"
-  url_display:
-    - "blueoakinteractive.com"
-  services:
-    - "Design / Theming"
-  date:
-    - "08/2016"
+umces:
+  title: "University of Maryland Center for Environmental Science"
+  image: "assets/img/work/umces.jpg"
+  url_link: "http://www.umces.edu"
+  url_display: "umces.edu"
+  services: "Drupal 7 / Theming"
+  date: "03/2017"
+
+shady:
+  title: "The Universities at Shady Grove"
+  image: "assets/img/work/universities-at-shady-grove.jpg"
+  url_link: "http://www.shadygrove.umd.edu"
+  url_display: "shadygrove.umd.edu"
+  services: "Drupal 7 / Theming"
+  date: "10/2016"
+
+boi:
+  title: "Blue Oak Interactive"
+  image: "assets/img/work/blue-oak-interactive.jpg"
+  url_link: "https://www.blueoakinteractive.com"
+  url_display: "blueoakinteractive.com"
+  services: "Drupal 8 / Design / Theming"
+  date: "08/2016"

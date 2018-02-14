@@ -22,7 +22,7 @@
 		background: $green;
 	}
 	@include breakpoint(large) {
-		&:nth-child(2n), &:nth-child(3n) {
+		&:nth-child(2n), &:nth-child(3n), &:nth-child(7n) {
 			background: $green;
 		}
 		&:nth-child(4n) {
